@@ -4,11 +4,11 @@ export const navItems = [
     path: '/'
   },
   {
-    name: 'detailCard',
-    path: '/details'
+    name: 'detailsCard',
+    path: 'DetailsCard/:'
   },
   {
     name: 'favoris',
-    path: '/favoris'
+    path: 'favoris'
   }
 ];

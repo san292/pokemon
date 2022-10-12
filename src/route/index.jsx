@@ -9,8 +9,8 @@ const RouteIndex = () => {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/favoris" element={<Favoris />} />
-      <Route path="/details" element={<DetailsCard />} />
+      <Route path="favoris" element={<Favoris />} />
+      <Route path="DetailsCard/:id" element={<DetailsCard />} />
     </Routes>
   );
 };

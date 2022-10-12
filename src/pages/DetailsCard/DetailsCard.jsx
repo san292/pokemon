@@ -1,10 +1,14 @@
 import React from 'react';
+import Pokemon from '../../components/Pokemon/Pokemon';
 import styled from 'styled-components';
 
 const DetailsCard = () => {
   return (
     <>
-      <Container>DetailsCard</Container>
+      <Container>
+        details
+        <Pokemon />
+      </Container>
     </>
   );
 };

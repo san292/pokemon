@@ -4,7 +4,6 @@ import { navItems } from './linkItems';
 import styled from 'styled-components';
 
 const Header = () => {
-  console.log('navItems', navItems);
   return (
     <>
       <Wrapper>
